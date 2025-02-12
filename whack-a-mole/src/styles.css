@@ -1,0 +1,32 @@
+.game {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+    width: 320px;
+  }
+  
+  .grid-item {
+    height: 100px;
+    background-color: #8b4513;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .mole {
+    background-color: #654321;
+    border: 2px solid #3e2723;
+    transform: scale(1.1);
+    transition: all 0.1s ease;
+  }
+  
+  .scoreboard {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
